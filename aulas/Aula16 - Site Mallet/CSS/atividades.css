@@ -1,0 +1,48 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    width: 90%; 
+    margin: 0 auto; 
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin-top: 10px;   
+}
+.logo img{ 
+    width: 26%; 
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    position: absolute;
+    top: -20px;
+    left: 600px;
+}
+.nav{
+    position: absolute;
+    top: 260px;
+    left: 1150px;
+}
+.principal{
+    display: block;
+    flex-direction: row;
+}
+.conteudo{
+    float: left; 
+    margin: 30px 25px 30px 25px; 
+    background-color: ghostwhite;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #08101a98; 
+}
+.rodape{
+    color: black;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 40px;
+}

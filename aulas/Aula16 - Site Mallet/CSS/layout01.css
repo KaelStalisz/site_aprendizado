@@ -1,0 +1,41 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background: aliceblue;
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin-top: 10px;   
+}
+.logo img{ 
+    width: 26%; 
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    position: absolute;
+    top: -20px;
+    left: 600px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+}
+.conteudo{ 
+    float: left; 
+    margin: 30px 25px 30px 25px; 
+    background-color:ghostwhite;
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #08101a98 
+}
+.rodape{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}
